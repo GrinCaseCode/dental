@@ -1,0 +1,623 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1385px) {
+	.design-items {
+		max-width: 583px;
+	}
+}
+@media only screen and (max-width : 1300px) {
+	
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.pl_50 {
+		padding-left: 15px;
+	}
+	.header-logo img {
+		width: 140px;
+	}
+	.logo-descr {
+		margin-left: 15px;
+	}
+	.header-item__phone {
+		font-size: 15px;
+	}
+	.design-img {
+		width: 430px;
+		height: 555px;
+	}
+	.design-img img {
+		max-width: 380px;
+	}
+	.section-title {
+		font-size: 34px;
+	}
+	.design-btn span {
+		padding-left: 4px;
+		text-align: center;
+		padding-right: 4px;
+	}
+	.design-descr {
+		margin: 39px 0;
+		margin-top: 9px;
+	}
+	.design-img__descr {
+		top: 231px;
+		left: 25px;
+	}
+	.gear-item__button {
+		flex-wrap: wrap;
+	}
+	.gear-btn-order {
+		margin-bottom: 15px;
+	}
+	.item-product {
+		padding: 25px 15px;
+	}
+	.item-product__name {
+		font-size: 15px;
+	}
+	.staff-item__name {
+		font-size: 15px;
+	}
+	.staff-description p {
+		font-size: 14px;
+	}
+	.staff-item__img {
+		margin-bottom: 10px;
+	}
+	.questions .form-block {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.checkbox-wrap {
+		white-space: normal;
+	}
+	.design-item {
+		flex: 1;
+	}
+	.design-img {
+		width: 375px;
+		height: 510px;
+	}
+	.design-img img {
+		max-width: 332px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.hidden_tablet {
+		display: none !important;
+	}
+	.header-bottom__menu {
+		font-size: 14px;
+	}
+	.design-items {
+		max-width: 100%;
+	}
+	.design-btn span {
+		justify-content: center;
+	}
+	.design-img {
+		display: none;
+	}
+	.design-item__button {
+		margin: 0px 0px 35px 0px;
+	}
+	.design-descr {
+		margin: 39px 0;
+		margin-top: 20px;
+	}
+	.section-title {
+		font-size: 30px;
+	}
+	.consultation {
+		padding: 30px 0;
+		background-image: none;
+		background-color: #f2f3ee;
+	}
+	.clinic-slider {
+		margin-bottom: 30px;
+	}
+	.clinic-gear__img {
+		margin-top: -10px;
+	}
+	.gear-btn-order {
+		margin-bottom: 0;
+	}
+	.item-product__name {
+		font-size: 17px;
+	}
+	.staff-item {
+		margin-bottom: 30px;
+	}
+	.staff {
+		padding-bottom: 40px;
+	}
+	.description-img {
+		display: none;
+	}
+	.description-item__right {
+		margin-top: 0;
+	}
+	.description-descr {
+		margin-bottom: 20px;
+	}
+	.clients-slider .slick-prev {
+		left: -35px;
+	}
+	.clients-slider .slick-next {
+		right: -35px;
+	}
+	.questions .form-block {
+		max-width: 500px;
+		margin: 0 auto;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.copyright .row > div {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.copyright .row > div:nth-child(2) .copyright-text {
+		justify-content: flex-end;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header-bottom {
+		display: none;
+	}	
+	.logo-descr {
+		display: none;
+	}
+	.header-item__phone {
+		display: none;
+	}
+	.section-title {
+		font-size: 24px;
+	}
+	.design .section-title {
+		padding-top: 10px;
+	}
+	.header {
+		padding: 10px 0;
+	}
+	.design-items {
+		margin-bottom: 10px;
+		flex-wrap: wrap;
+	}
+	.design-item {
+		width: 33%;
+		margin-bottom: 20px;
+		flex: initial;
+	}
+	.design-descr {
+		max-width: 100%;
+		display: none;
+	}
+	.design-item__button {
+		text-align: center;
+	}
+	.descr-title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.service-item__text {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.service-item {
+		margin: 0;
+		min-height: 100%;
+	}
+	.service-item__img {
+		min-width: 100px;
+		height: 94px;
+		margin-bottom: 20px;
+	}
+	.row_services > div {
+		margin-bottom: 30px;
+	}
+	.consultation-title {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	.consultation-descr {
+		font-size: 18px;
+		max-width: 100%;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.col_pl {
+		padding-left: 15px;
+	}
+	.consultation {
+		margin-bottom: 0;
+	}
+	.clinic {
+		padding-top: 30px;
+	}
+	.clinic-slider__img {
+		height: 310px;
+	}
+	.gear-item__button a {
+		width: 100%;
+		margin: 0;
+		margin-top: 20px;
+	}
+	.clinick-gear-price {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.clinick-gear-price span {
+		font-size: 27px;
+	}
+	.slider-products {
+		margin: 0 -15px;
+	}
+	.staff-item__img {
+		width: 180px;
+		height: 180px;
+	}
+	.subscribe-title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.subscribe-items {
+		flex-wrap: wrap;
+	}
+	.subscribe-items .item-form {
+		width: 48%;
+	}
+	.subscribe-items .main-btn {
+		width: 50%;
+		margin: auto;
+		margin-top: 20px;
+	}
+	.item-client {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.clients-slider .slick-prev {
+		left: 0;
+	}
+	.clients-slider .slick-next {
+		right: 0;
+	}
+	.clients {
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	.clients-title {
+		margin-bottom: 20px;
+	}
+	.questions-title {
+		margin-bottom: 30px;
+	}
+	.question__name {
+		font-size: 14px;
+		line-height: 21px;
+		padding-left: 19px;
+		padding-right: 65px;
+	}
+	.question__answer {
+		font-size: 14px;
+		line-height: 24px;
+		padding: 10px 15px;
+	}
+	.description-item {
+		margin-bottom: 30px;
+	}
+	.map-item {
+		top: 0;
+		position: relative;
+		left: 0;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	#map {
+		height: 400px;
+	}
+	.copyright-text,
+	.copyright .row > div:nth-child(2) .copyright-text {
+		justify-content: center;
+	}
+	.copyright .row > div {
+		text-align: center;
+	}
+	.design .section-title {
+		text-align: center;
+	}
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		z-index: 800;
+	}
+	.wrapper {
+		padding-top: 91px;
+	}
+	.clinic-gear__img {
+		margin-top: 10px;
+	}
+	.btn_nav {
+		margin-left: 20px;
+		display: inline-block;
+	}
+	.header .align_right {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.header-bottom {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		overflow: auto;
+		width: 100%;
+		margin: 0;
+		padding-bottom: 100px;
+		background-color: #fff;
+	}
+	.header-bottom__menu a {
+		padding: 13px 15px;
+		display: block;
+		color: #89ae30;
+		border-bottom: 1px #89ae30 solid;
+	}
+	.header-bottom__menu {
+		display: block;
+	}
+	.lines_1,
+	.lines_2,
+	.lines_3,
+	.lines_4,
+	.lines_5,
+	.lines_6,
+	.lines_7 {
+		display: none;
+	}
+}
+@media only screen and (max-width : 576px) {
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.section-title {
+		font-size: 20px;
+	}
+	.design-items {
+		margin-top: 20px;
+	}
+	.header-item__button {
+		display: none;
+	}
+	.descr-title {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.row_services > div {
+		padding: 0 5px;
+		margin-bottom: 10px;
+	}
+	.row_services {
+		margin: 0 -5px;
+	}
+	.service-item__text {
+		font-size: 11px;
+		line-height: 19px;
+	}
+	.service-item {
+		padding: 10px 10px;
+		padding-top: 15px;
+		box-shadow: 0 10px 10px rgba(35, 31, 32, 0.1);
+	}
+	.service-item__img {
+		padding: 25px;
+	}
+	.consultation-descr {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.form-block {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.title-form {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.clinic-title {
+		margin-bottom: 20px;
+	}
+	.clinic-slider {
+		margin-top: 25px;
+	}
+	.clinic-gear__name {
+		font-size: 16px;
+		position: relative;
+		top: 0;
+	}
+	.clinic-gear__img {
+		margin-top: 20px;
+		padding-top: 0;
+	}
+	.staff-item {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 20px;
+		margin-bottom: 10px;
+	}
+	.row_staff > div {
+		padding: 0 5px;
+	}
+	.staff-description p {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.description-descr {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.row_staff {
+		margin: 0 -5px;
+	}
+	.staff-item__name {
+		font-size: 11px;
+		line-height: 19px;
+	}
+	.staff-description {
+		margin: 0;
+	}
+	.item-product__image {
+		height: 270px;
+	}
+	.list-btn span {
+		height: 48px;
+		white-space: normal;
+	}
+	.staff-item__img {
+		height: 130px;
+	}
+	.descripton-item__text p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.subscribe-items .item-form {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.subscribe-items .main-btn {
+		margin-top: 0;
+		width: 100%;
+	}
+	.subscribe-title {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.clients-slider .slick-arrow {
+		top: 60px;
+	}
+	.clients-slider .slick-prev {
+		left: -10px;
+	}
+	.clients-slider .slick-next {
+		right: -10px;
+	}
+	.question__name {
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.questions .form-block {
+		padding-top: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.map-item {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.map-contacts p {
+		font-size: 14px;
+	}
+	.map-contacts span {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.wrapper {
+		padding-top: 73px;
+	}
+	.btn-phone {
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(196, 223, 22, 0.8);
+		background-image: linear-gradient(to bottom, rgba(196, 223, 22, 0.8) 0%, rgba(150, 188, 51, 0.8) 100%);
+	}
+	.design-item__text {
+		font-size: 13px;
+	}
+	.clinic-gear__img {
+		padding-left: 0;
+	}
+	.clinic-gear__img img {
+		height: auto;
+	}
+	.clinic {
+		padding-bottom: 40px;
+	}
+	.checkbox {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width : 390px) {
+	
+}
+@media only screen and (max-width : 350px) {
+
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.btn-phone {
+		display: none !important;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.show_mobile {
+		display: none !important;
+	}
+	.header-bottom {
+		display: block !important;
+		height: auto !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1170px;
+	}
+}
+@media (min-width: 1922px) {
+	.consultation {
+		background-size: 100% auto;
+	}
+}
