@@ -70,6 +70,31 @@ $('.slider-products').slick({
 		]
 });
 
+$('.slider-examples').slick({
+    arrows: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 2,
+    touchThreshold: 1000,
+    prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-angle-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-angle-right"></i><div/>',
+    slidesToScroll: 1,
+    responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
+});
+
 $('.clients-slider').slick({
     arrows: true,
     dots: false,
@@ -100,6 +125,16 @@ $('.clients-slider').slick({
 		}
 		]
 });
+
+
+$('.tabs li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings(".tab-container").find(".tab-pane").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(100);
+	});
 
 
 $(".question__name").click(function(e) {

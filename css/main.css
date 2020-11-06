@@ -1875,7 +1875,8 @@ display: block;
 	background-position: center;
 	background-size: 100% 100%;
 }
-
+.lines_8,
+.lines_9,
 .lines_7 {
 	position: absolute;
 	width: 279px;
@@ -1889,4 +1890,264 @@ display: block;
 }
 .map {
 	padding-top: 35px;
+}
+
+/*service*/
+.design-subtitle {
+	font-size: 24px;
+line-height: 21px;
+margin: 55px 0;
+font-family: 'SegoeUI-Bold';
+}
+.design_service .design-btn span {
+	width: 330px;
+	text-align: left;
+}
+.design_service .design-img {
+	width: 472px;
+	height: 529px;
+	margin: 0 auto;
+	float: none;
+}
+.design_service .design-img__descr {
+	padding-left: 20px;
+	padding-right: 20px;
+	    top: 100px;
+    left: -90px;
+	text-align: center;
+}
+.list-services {
+	margin: 0 -6px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.list-services li {
+	padding: 0 6px;
+}
+.list-services li a {
+	height: 61px;
+	font-size: 16px;
+	color: #000;
+	font-family: 'SegoeUI-Bold';
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0 7px 10px rgba(35, 31, 32, 0.15);
+border-radius: 6px;
+border: 2px solid #ffffff;
+background-color: #ffffff;
+transition: all 0.3s;
+}
+.list-services li a:hover,
+.list-services li.active a {
+	color: #11557a;
+border-color: #11557a;
+background-color: transparent;
+}
+.prices .descr-title {
+	padding-top: 15px;
+	max-width: 810px;
+	text-align: left;
+}
+.prices {
+	padding-top: 45px;
+	padding-bottom: 37px;
+}
+.table-main {
+	margin-top: 39px;
+box-shadow: 0 10px 15px rgba(35, 31, 32, 0.2);
+border-radius: 6px;
+font-size: 16px;
+border: 7px solid #ffffff;
+background-color: #f2f3ee;
+}
+.prices .table-main td:nth-child(2) {
+	font-family: 'SegoeUI-SemiBold';
+	text-align: center;
+}
+.table-main tbody td {
+	padding: 19px 30px;
+	border-top: 1px #ddddde solid;
+}
+.table-main td:last-child {
+	text-align: right;
+	padding-right: 70px;
+}
+.table-main thead td:last-child {
+	padding-right: 100px;
+}
+.table-main table {
+	width: 100%;
+	border-spacing: none;
+}
+.table-main thead td {
+	padding: 16px 0;
+	font-size: 18px;
+	text-align: center;
+	font-family: 'SegoeUI-Bold' !important;
+}
+.prices__button {
+	padding-top: 40px;
+	text-align: center;
+}
+.advantages {
+	padding-top: 35px;
+	padding-bottom: 25px; 	
+	background-color: #f2f3ee;
+}
+.item-advantage {
+	display: flex;
+	max-width: 535px;
+	margin-bottom: 70px;
+}
+.item-advantage p {
+	flex: 1;
+	font-size: 16px;
+line-height: 24px;
+}
+}
+.item-advantage p span {
+		font-family: 'SegoeUI-SemiBold';
+}
+.item-advantage__number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 54px;
+	height: 59px;
+	position: relative;
+	background-image: url(../img/hexagon4.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	margin-right: 24px;
+	margin-top: 5px;
+	color: #ffffff;
+	font-family: "SegoeUI-Bold";
+	font-size: 23px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 31.02px;
+}
+.advantages .section-title {
+	padding-bottom: 60px;
+}
+.advantages__image img {
+	max-width: 100%;
+	height: auto;
+	float: right;
+}
+.advantages__image {
+	margin-top: -50px;
+}
+.advantages .container {
+	position: relative;
+}
+.examples {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.examples .section-title {
+	text-align: center;
+}
+.examples .descr-title {
+	padding-top: 15px;
+}
+.slider-examples__item {
+	height: 440px;
+	padding: 18px;
+	margin: 0 15px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+box-shadow: 0 5px 15px rgba(35, 31, 32, 0.2);
+border-radius: 6px;
+background-color: #ffffff;
+}
+.slider-examples__item img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+}
+.slider-examples {
+	margin-top: 30px;
+}
+.tab-container {
+	padding: 25px 32px;
+	padding-bottom: 45px;
+	padding-right: 45px;
+	box-shadow: 0 5px 15px rgba(35, 31, 32, 0.2);
+border-radius: 6px;
+background-color: #ffffff;
+position: relative;
+z-index: 2;
+}
+.tabs {
+	display: flex;
+}
+.tabs li {
+	margin-right: 10px;
+}
+.tabs li a {
+	height: 64px;
+	padding: 0 30px;
+	border-radius: 6px;
+background-color: #f2f3ee;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+line-height: 24px;
+font-family: 'SegoeUI-Bold';
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+color: #000;
+}
+.tabs li.active a,
+.tabs li a:hover {
+	background-color: #11557a;
+	color: #fff;
+}
+.service-info .section-title {
+	padding-bottom: 40px;
+}
+.text-main {
+	font-size: 16px;
+line-height: 24px;
+}
+.text-main p {
+	margin-bottom: 20px;
+}
+.text-main ul li::before {
+	content: "•";
+	margin-right: 15px;
+	color: #11557a;
+}
+.service-info {
+	padding-bottom: 60px;
+}
+.tab-pane {
+	display: none;
+}
+.tab-pane:first-child {
+	display: block;
+}
+.service-info .container {
+	position: relative;
+}
+.lines_8 {
+	left: -230px;
+	top: auto;
+    bottom: -177px;
+}
+.lines_9 {
+	right: -70px;
+	top: auto;
+	left: auto;
+    bottom: -177px;
 }

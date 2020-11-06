@@ -82,6 +82,15 @@
 	.design-img img {
 		max-width: 332px;
 	}
+	.list-services li a {
+		font-size: 14px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.design_service .design-img {
+width: 375px;
+    height: 510px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -162,6 +171,39 @@
 	.copyright .row > div:nth-child(2) .copyright-text {
 		justify-content: flex-end;
 	}
+	.list-services li a {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.design-subtitle {
+    font-size: 19px;
+    line-height: 21px;
+    margin: 35px 0;
+    }
+    .list-services {
+    	margin-bottom: 10px;
+    }
+    .table-main td:last-child {
+    	padding-right: 30px;
+    }
+    .table-main thead td:last-child {
+    	padding-right: 50px;
+    }
+    .item-advantage {
+    	max-width: 100%;
+    	margin-bottom: 30px;
+    }
+    .advantages .section-title {
+    	padding-bottom: 30px;
+    }
+    .tabs li a {
+    	font-size: 16px;
+    	height: 60px;
+    }
+    .service-info {
+    	padding-bottom: 30px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -379,9 +421,78 @@
 	.lines_4,
 	.lines_5,
 	.lines_6,
-	.lines_7 {
+	.lines_7,
+	.lines_8,
+	.lines_9 {
 		display: none;
 	}
+	.list-services {
+		flex-wrap: wrap;
+	}
+	.list-services li {
+		width: 50%;
+		margin-bottom: 10px;
+	}
+	.list-services li a {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.design-subtitle {
+    font-size: 17px;
+    line-height: 21px;
+    margin: 20px 0;
+    text-align: center;
+}
+.table-main tbody td {
+    padding: 13px 10px;
+}
+.table-main td:last-child {
+	padding-right: 10px;
+	text-align: center;
+}
+.prices .table-main tbody td:nth-child(2) {
+	white-space: nowrap;
+}
+.table-main thead td {
+    padding: 13px 0;
+    font-size: 15px;
+    }
+    .table-main thead td:last-child {
+    padding-right: 0;
+}
+.table-main {
+	font-size: 14px;
+}
+.advantages__image {
+    margin-top: -23px;
+}
+.advantages__image img {
+	float: none;
+	margin: 0 auto;
+}
+.examples {
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+.slider-examples__item {
+    height: 325px;
+    }
+    .tabs li a {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text-main {
+    font-size: 14px;
+    line-height: 21px;
+}
+.text-main p {
+    margin-bottom: 15px;
+}
+.map {
+    padding-top: 30px;
+}
 }
 @media only screen and (max-width : 576px) {
 	
@@ -559,6 +670,54 @@
 	.checkbox {
 		font-size: 13px;
 	}
+	.list-services li a {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.table-main {
+	margin: 0 -15px;
+	margin-top: 25px;
+}
+.table-main thead td {
+    padding: 13px 0;
+    font-size: 13px;
+}
+.table-main tbody td {
+    padding: 10px 5px;
+}
+.table-main {
+    font-size: 13px;
+}
+.item-advantage p {
+    font-size: 14px;
+    line-height: 21px;
+}
+.item-advantage__number {
+	margin-right: 15px;
+}
+.advantages__image img {
+	max-width: 200px;
+}
+.slider-examples {
+	margin: 0 -15px;
+}
+.slider-examples__item {
+	padding: 5px;
+	height: 240px;
+}
+.slider-examples .slick-arrow {
+	top: 40%;
+}
+.tabs li a {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+}
+.tab-container {
+	padding: 25px 15px;
+}
 }
 
 @media only screen and (max-width : 390px) {
