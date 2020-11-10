@@ -88,8 +88,27 @@
 		padding-right: 10px;
 	}
 	.design_service .design-img {
-width: 375px;
-    height: 510px;
+		width: 375px;
+		height: 510px;
+	}
+	.list-services_sidebar {
+		width: 100%;
+	}
+	.equipment .pl_55 {
+		padding-left: 15px;
+	}
+	.slider-equipment__name {
+		font-size: 17px;
+	}
+	.tab-container-equip {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.about-block {
+    padding: 35px 35px;
+    padding-right: 80px;
+    font-size: 16px;
+    line-height: 26px;
 }
 }
 
@@ -172,38 +191,94 @@ width: 375px;
 		justify-content: flex-end;
 	}
 	.list-services li a {
-    font-size: 12px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.design-subtitle {
-    font-size: 19px;
-    line-height: 21px;
-    margin: 35px 0;
-    }
-    .list-services {
-    	margin-bottom: 10px;
-    }
-    .table-main td:last-child {
-    	padding-right: 30px;
-    }
-    .table-main thead td:last-child {
-    	padding-right: 50px;
-    }
-    .item-advantage {
-    	max-width: 100%;
-    	margin-bottom: 30px;
-    }
-    .advantages .section-title {
-    	padding-bottom: 30px;
-    }
-    .tabs li a {
-    	font-size: 16px;
-    	height: 60px;
-    }
-    .service-info {
-    	padding-bottom: 30px;
-    }
+		font-size: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.design-subtitle {
+		font-size: 19px;
+		line-height: 21px;
+		margin: 35px 0;
+	}
+	.list-services {
+		margin-bottom: 10px;
+	}
+	.table-main td:last-child {
+		padding-right: 30px;
+	}
+	.table-main thead td:last-child {
+		padding-right: 50px;
+	}
+	.item-advantage {
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	.advantages .section-title {
+		padding-bottom: 30px;
+	}
+	.tabs li a {
+		font-size: 16px;
+		height: 60px;
+	}
+	.service-info {
+		padding-bottom: 30px;
+	}
+	.item-blog__name {
+		font-size: 21px;
+	}
+	.item-blog__date {
+		margin-top: 0;
+	}
+	.item-blog {
+		padding: 25px 0;
+	}
+	.list-services_sidebar {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.list-services_sidebar li {
+		width: 32%;
+		margin-bottom: 20px;
+	}
+	.list-services_sidebar li:last-child {
+		margin-bottom: 20px;
+	}
+	.partners .section-title {
+		padding-bottom: 28px;
+	}
+	.partners {
+		padding-top: 40px;
+	}
+	.consultation_page {
+		margin-top: 0;
+	}
+	.clinic_rent .section-title {
+		padding-bottom: 30px;
+	}
+	.clinic_rent {
+		padding-bottom: 50px;
+	}
+	.about-block {
+		padding-right: 35px;
+		min-height: auto;
+	}
+	.about-block .design-img {
+		position: static;
+		display: flex;
+		float: none;
+		margin: 0 auto;
+		height: 440px;
+	}
+	.row_about {
+		justify-content: center;
+		margin-top: 50px;
+	}
+	.row_about > div {
+		margin-top: 20px;
+	}
+	.about {
+		padding-bottom: 15px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -423,7 +498,11 @@ width: 375px;
 	.lines_6,
 	.lines_7,
 	.lines_8,
-	.lines_9 {
+	.lines_9,
+	.lines_10,
+	.lines_11,
+	.lines_12,
+	.lines_13 {
 		display: none;
 	}
 	.list-services {
@@ -434,65 +513,151 @@ width: 375px;
 		margin-bottom: 10px;
 	}
 	.list-services li a {
-    font-size: 14px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-.design-subtitle {
-    font-size: 17px;
-    line-height: 21px;
-    margin: 20px 0;
-    text-align: center;
-}
-.table-main tbody td {
-    padding: 13px 10px;
-}
-.table-main td:last-child {
-	padding-right: 10px;
-	text-align: center;
-}
-.prices .table-main tbody td:nth-child(2) {
-	white-space: nowrap;
-}
-.table-main thead td {
-    padding: 13px 0;
-    font-size: 15px;
-    }
-    .table-main thead td:last-child {
-    padding-right: 0;
-}
-.table-main {
-	font-size: 14px;
-}
-.advantages__image {
-    margin-top: -23px;
-}
-.advantages__image img {
-	float: none;
-	margin: 0 auto;
-}
-.examples {
-	padding-top: 35px;
-	padding-bottom: 20px;
-}
-.slider-examples__item {
-    height: 325px;
-    }
-    .tabs li a {
-    font-size: 14px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.text-main {
-    font-size: 14px;
-    line-height: 21px;
-}
-.text-main p {
-    margin-bottom: 15px;
-}
-.map {
-    padding-top: 30px;
-}
+		font-size: 14px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.design-subtitle {
+		font-size: 17px;
+		line-height: 21px;
+		margin: 20px 0;
+		text-align: center;
+	}
+	.table-main tbody td {
+		padding: 13px 10px;
+	}
+	.table-main td:last-child {
+		padding-right: 10px;
+		text-align: center;
+	}
+	.prices .table-main tbody td:nth-child(2) {
+		white-space: nowrap;
+	}
+	.table-main thead td {
+		padding: 13px 0;
+		font-size: 15px;
+	}
+	.table-main thead td:last-child {
+		padding-right: 0;
+	}
+	.table-main {
+		font-size: 14px;
+	}
+	.advantages__image {
+		margin-top: -23px;
+	}
+	.advantages__image img {
+		float: none;
+		margin: 0 auto;
+	}
+	.examples {
+		padding-top: 35px;
+		padding-bottom: 20px;
+	}
+	.slider-examples__item {
+		height: 325px;
+	}
+	.tabs li a {
+		font-size: 14px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.text-main {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.text-main p {
+		margin-bottom: 15px;
+	}
+	.map {
+		padding-top: 30px;
+	}
+	.item-blog .btn-arrow {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.item-blog__name {
+		margin-top: 15px;
+	}
+	.item-blog .tags-list {
+		justify-content: flex-start;
+	}
+	.tags-list li {
+		margin-right: 30px;
+	}
+	.tags-list li:last-child {
+		margin-right: 0;
+	}
+	.pagination__arrow:first-of-type {
+		margin-right: 35px;
+	}
+	.pagination__arrow:last-of-type {
+		margin-left: 35px;
+	}
+	.breadcumbs {
+		line-height: 29px;
+	}
+	.article-title br {
+		display: none;
+	}
+	.article-title {
+		font-size: 27px;
+		margin-bottom: 25px;
+	}
+	.article-date {
+		margin-top: 15px;
+		line-height: 26px;
+		margin-bottom: 13px;
+	}
+	.article-subtitle {
+		margin-top: 28px;
+		margin-bottom: 16px;
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.list-services_sidebar li {
+		padding: 0 5px;
+	}
+	.list-services_sidebar li:last-child {
+		margin-bottom: 10px;
+	}
+	.slider-equipment__img {
+		margin-top: 0;
+	}
+	.slider-equipment__name {
+		margin-top: 20px;
+	}
+	.slider-equipment__descr {
+		padding-bottom: 20px;
+	}
+	.equipment .section-title {
+		padding-bottom: 20px;
+	}
+	.slider-equipment .slick-arrow {
+		top: 200px;
+	}
+	.slider-equipment__bottom {
+		padding-top: 25px;
+	}
+	.equipment {
+		padding-bottom: 50px;
+	}
+	.col_pr {
+		padding-right: 15px;
+	}
+	.partners {
+		padding-bottom: 40px;
+	}
+	.description + .consultation_page {
+		padding-top: 10px;
+	}
+	.about-block {
+		padding: 25px 15px;
+	}
+	.item-about {
+		max-width: 350px;
+		margin: 0 auto;
+	}
 }
 @media only screen and (max-width : 576px) {
 	
@@ -671,52 +836,160 @@ width: 375px;
 		font-size: 13px;
 	}
 	.list-services li a {
-    font-size: 12px;
-    padding-left: 5px;
-    padding-right: 5px;
+		font-size: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.table-main {
+		margin: 0 -15px;
+		margin-top: 25px;
+	}
+	.table-main thead td {
+		padding: 13px 0;
+		font-size: 13px;
+	}
+	.table-main tbody td {
+		padding: 10px 5px;
+	}
+	.table-main {
+		font-size: 13px;
+	}
+	.item-advantage p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.item-advantage__number {
+		margin-right: 15px;
+	}
+	.advantages__image img {
+		max-width: 200px;
+	}
+	.slider-examples {
+		margin: 0 -15px;
+	}
+	.slider-examples__item {
+		padding: 5px;
+		height: 240px;
+	}
+	.slider-examples .slick-arrow {
+		top: 40%;
+	}
+	.tabs li a {
+		font-size: 14px;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 22px;
+	}
+	.tab-container {
+		padding: 25px 15px;
+	}
+	.item-blog__date strong {
+		font-size: 32px;
+		line-height: 32px;
+	}
+	.item-blog__name {
+		font-size: 18px;
+		line-height: 29px;
+	}
+	.item-blog p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.tags-list li {
+		margin-bottom: 5px;
+		margin-right: 20px;
+	}
+	.item-blog .btn-arrow {
+		margin-top: 15px;
+		margin-bottom: 25px;
+	}
+	.item-blog__image {
+		height: 220px;
+	}
+	.item-blog .tags-list {
+		margin-top: 15px;
+	}
+	.pagination {
+		margin-top: 30px;
+	}
+	.breadcumbs li {
+		line-height: 23px;
+	}
+	.article-title {
+		font-size: 20px;
+		margin-bottom: 15px;
+		line-height: 28px;
+	}
+	.article-date {
+		font-size: 14px;
+	}
+	.article-text {
+		font-size: 14px;
+		line-height: 21px;
+		padding-bottom: 0px;
+	}
+	.quote_title {
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+	.quote {
+		padding: 25px 20px;
+	}
+	.article-text ul {
+		margin: 20px 0;
+	}
+	.slider-equipment .slick-arrow {
+		top: 223px;
+	}
+	.main-btn__big span {
+		white-space: normal;
+	}
+	.slider-equipment {
+		font-size: 14px;
+	}
+	.partners {
+		padding-bottom: 30px;
+	}
+	.clinic_rent .section-title {
+		padding-bottom: 20px;
+	}
+	.clinic-slider__img {
+    height: 280px;
 }
-.table-main {
+.about .section-title {
+	padding-top: 25px;
+	padding-bottom: 27px;
+}
+.about-block {
 	margin: 0 -15px;
-	margin-top: 25px;
+	font-size: 14px;
+	line-height: 21px;
 }
-.table-main thead td {
-    padding: 13px 0;
-    font-size: 13px;
+.about-block p {
+	margin-bottom: 15px;
 }
-.table-main tbody td {
-    padding: 10px 5px;
+.about-block .design-img,
+ .design-img {
+	width: 270px;
+	height: 315px;
 }
-.table-main {
-    font-size: 13px;
+.design-img img {
+    max-width: 244px;
 }
-.item-advantage p {
+.row_about {
+	margin-top: 40px;
+}
+.item-about p {
     font-size: 14px;
     line-height: 21px;
 }
-.item-advantage__number {
-	margin-right: 15px;
+.item-about__number {
+	margin-bottom: 24px;
 }
-.advantages__image img {
-	max-width: 200px;
-}
-.slider-examples {
-	margin: 0 -15px;
-}
-.slider-examples__item {
-	padding: 5px;
-	height: 240px;
-}
-.slider-examples .slick-arrow {
-	top: 40%;
-}
-.tabs li a {
-    font-size: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 22px;
-}
-.tab-container {
-	padding: 25px 15px;
+.item-about {
+	padding-top: 25px;
+	padding-bottom: 20px;
 }
 }
 

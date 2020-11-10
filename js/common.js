@@ -127,6 +127,21 @@ $('.clients-slider').slick({
 });
 
 
+
+$('.slider-equipment').slick({
+    arrows: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    touchThreshold: 1000,
+    prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-angle-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-angle-right"></i><div/>',
+    slidesToScroll: 1,
+});
+
+
+
+
 $('.tabs li a').click(function(event) {
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
@@ -134,6 +149,16 @@ $('.tabs li a').click(function(event) {
 		$(this).parent().parent().siblings(".tab-container").find(".tab-pane").fadeOut(0);
 		var selectTab = $(this).attr("href");
 		$(selectTab).fadeIn(100);
+	});
+
+$('.list-services_sidebar li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-container-equip").find(".tab-pane-equip").fadeOut(0);
+		var selectTab2 = $(this).attr("href");
+		$(selectTab2).fadeIn(100);
+		$('.slider-equipment').slick("reinit");
 	});
 
 
