@@ -2407,7 +2407,7 @@ min-height: 100%;
 .consultation_page .container {
 	position: relative;
 }
-.lines_10 {
+.lines_10 { 
 	right: 100%;
 	top: 45px;
 	bottom: auto;
