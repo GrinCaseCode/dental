@@ -140,6 +140,25 @@ $('.slider-equipment').slick({
 });
 
 
+$('.slider-translation').slick({
+    arrows: true,
+    dots: false,
+    infinite: true,
+    slidesToShow: 1,
+    touchThreshold: 1000,
+    prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-angle-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-angle-right"></i><div/>',
+    slidesToScroll: 1,
+    responsive: [
+		{
+			breakpoint: 480,
+			settings: {
+				arrows: false,
+    dots: true,
+			}
+		}
+		]
+});
 
 
 $('.tabs li a').click(function(event) {
