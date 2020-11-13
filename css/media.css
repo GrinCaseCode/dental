@@ -1090,6 +1090,12 @@
 	margin: 0 auto;
 	margin-top: 20px;
 }
+.service-online__buttons .main-btn:first-child {
+	margin-top: 0;
+}
+.service-online .list-main {
+	padding-bottom: 10px;
+}
 .service-online__buttons .main-btn span {
 		width: 280px;
 }
