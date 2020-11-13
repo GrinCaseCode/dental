@@ -2775,6 +2775,7 @@ background-color: #f7f9fb;
 	right: 0;
 	bottom: 0;
 	margin: auto;
+	padding: 0;
 	width: 95px;
 }
 .slider-translation .slick-arrow {
