@@ -311,6 +311,15 @@
 .section-team .row_staff > div {
 	margin-bottom: 30px;
 }
+
+/*section-contacts*/
+.contacts-block {
+	margin-top: 30px;
+	min-height: auto;
+}
+.section-contacts .section-title {
+	padding-bottom: 0;
+}
 }
 
 /* Small Devices, Tablets */
@@ -749,6 +758,19 @@
 .succcess-team .row_about {
 	margin-top: 10px;
 }
+/*section-contacts*/
+.contacts-block {
+	padding: 25px;
+}
+.item-contacts {
+	margin-bottom: 20px;
+}
+.item-contacts__title {
+	font-size: 16px;
+}
+.map-contact {
+	height: 390px;
+}
 }
 @media only screen and (max-width : 576px) {
 	
@@ -1090,12 +1112,6 @@
 	margin: 0 auto;
 	margin-top: 20px;
 }
-.service-online__buttons .main-btn:first-child {
-	margin-top: 0;
-}
-.service-online .list-main {
-	padding-bottom: 10px;
-}
 .service-online__buttons .main-btn span {
 		width: 280px;
 }
@@ -1118,6 +1134,11 @@
 }
 .succcess-team .row_about {
     margin-top: 0;
+}
+
+/*section-contacts*/
+.map-contact {
+	height: 350px;
 }
 }
 
